@@ -1,12 +1,13 @@
 # LSP Example for Embedded Language using Language Service
 
+Taken from the upstream [lsp-embedded-language-service](https://github.com/microsoft/vscode-extension-samples/tree/master/lsp-embedded-language-service) example.
 Heavily documented sample code for https://code.visualstudio.com/api/language-extensions/embedded-languages#language-services
 
 ## Functionality
 
 This extension contributes a new language, `html1`. The new language is for illustration purpose and has basic syntax highlighting.
 
-This Language Server works for `html1` file. HTML1 is like HTML file but has file extension `.html1`. You can create a `test.html1` file to play with below functionaltiies:
+This Language Server works for `html1` file. HTML1 is like HTML file but has file extension `.html1`. You can create a `test.html1` file to play with below functionalities:
 
 - Completions for HTML tags
 - Completions for CSS in `<style>` tag
@@ -23,5 +24,5 @@ This Language Server works for `html1` file. HTML1 is like HTML file but has fil
 - If you want to debug the server as well use the launch configuration `Attach to Server`
 - In the [Extension Development Host] instance of VSCode, open a HTML document
   - Type `<d|` to try HTML completion
-  - Type `<style>.foo { c| }</style>` to try CSS completino
+  - Type `<style>.foo { c| }</style>` to try CSS completions
   - Have `<style>.foo { }</style>` to see CSS Diagnostics
